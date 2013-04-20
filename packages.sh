@@ -7,14 +7,13 @@
 
 set -e
 
-PACKAGES="lighttpd perl php php-cgi rsync ghc tmux screen zsh weechat irssi mutt wget git svn pine bsd-games python python2 emacs-nox mercurial darcs ttytter elinks bitlbee htop ed bc"
-
 echo "Installing additional packages now..."
-pacman -S $PACKAGES
+
+pacman -S $(<packages.lst)
 
 echo "Downloading Configuration files..."
 
-wget blah
+# wget blah
 
 echo "Enabling Services..."
 

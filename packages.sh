@@ -7,7 +7,7 @@
 
 set -e
 
-PACKAGES="lighttpd perl php php-cgi tmux screen zsh weechat irssi mutt git svn pine bsd-games vitetris python python2 emacs mercurial darcs"
+PACKAGES="lighttpd perl php php-cgi tmux screen zsh weechat irssi mutt wget git svn pine bsd-games vitetris python python2 emacs mercurial darcs"
 
 echo "Installing additional packages now..."
 pacman -S $PACKAGES

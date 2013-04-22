@@ -9,7 +9,7 @@ set -e
 
 echo "Installing additional packages now..."
 
-pacman -S $(<packages.lst)
+pacman -S --needed $(<packages.lst)
 
 echo "Downloading Configuration files..."
 

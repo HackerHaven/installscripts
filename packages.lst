@@ -1,5 +1,9 @@
 base-devel
+hc
 bc
+lsof
+strace
+mlocate
 bitlbee
 bsd-games
 cabal-install

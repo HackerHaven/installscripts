@@ -16,11 +16,11 @@ lighttpd
 lsof
 mercurial
 mlocate
-mutt
 munin
+mutt
 openbsd-netcat
-perl-net-cidr-lite
 perl
+perl-net-cidr-lite
 php
 php-cgi
 pine

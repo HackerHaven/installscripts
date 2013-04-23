@@ -4,7 +4,9 @@ bc
 bitlbee
 bsd-games
 cabal-install
+ed
 elinks
+emacs-nox
 munin
 perl-net-cidr-lite
 git
